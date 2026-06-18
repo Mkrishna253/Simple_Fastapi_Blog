@@ -1,0 +1,13 @@
+fastapi[standard]
+sqlalchemy>=2.0
+aiosqlite
+pydantic
+pydantic-settings
+email-validator
+jinja2
+pyjwt
+pwdlib
+python-multipart
+pillow
+aiosmtplib
+httpx
