@@ -1,6 +1,7 @@
 fastapi[standard]
 sqlalchemy>=2.0
 aiosqlite
+alembic
 pydantic
 pydantic-settings
 email-validator
@@ -9,5 +10,5 @@ pyjwt
 pwdlib
 python-multipart
 pillow
-aiosmtplib
 httpx
+certifi

@@ -181,7 +181,11 @@ async def reset_password(
             detail="Invalid or expired reset token",
         )
 
+<<<<<<< HEAD
     if reset_token.expires_at.replace(tzinfo=UTC) < datetime.now(UTC):
+=======
+    if reset_token.expires_at < datetime.now(UTC):
+>>>>>>> 40a6d0a (postgresql db and alembic setup)
         await db.delete(reset_token)
         await db.commit()
         raise HTTPException(
